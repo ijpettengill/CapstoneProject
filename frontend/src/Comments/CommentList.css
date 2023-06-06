@@ -1,0 +1,15 @@
+.comment_holder {
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 100%;
+    border: none;
+  }
+  
+  h1 {
+    font-size: 40px;
+    font-weight: 200;
+    color: #5c717b;
+    margin-bottom: 40px;
+  }

@@ -1,0 +1,11 @@
+h2 {
+    font-size: 28px;
+    color: black;
+    font-weight: 200;
+  }
+  
+  .comment_card {
+    border-radius: 20px;
+    width: 95%;
+    border: none;
+  }

@@ -1,0 +1,12 @@
+.modalContainer {
+    border: 2px solid black;
+    /* box-shadow: #f36250 5px 5px;
+     */
+    box-shadow: #f36250 -10px 10px, black -12px 12px;
+  }
+  
+  .nav-btn:hover {
+    text-decoration: none;
+    box-shadow: #183543 6px 6px 0 0, #183543 6px 6px 0 1px;
+    transform: translate(-2px, -2px);
+  }

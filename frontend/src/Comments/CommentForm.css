@@ -1,0 +1,21 @@
+.form_comment {
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 100%;
+    border: none;
+  }
+  
+  .msgHolder {
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-bottom: 40px;
+  }
+  
+  .msgHolder h1 {
+    font-size: 40px;
+    font-weight: 200;
+    color: #5c717b;
+    margin-bottom: 0px;
+  }
