@@ -1,0 +1,79 @@
+.petDetail {
+    /* display: flex; */
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px;
+    /* box-shadow: rgba(243, 98, 80, 0.45) 0px 5px 15px; */
+    border-radius: 20px;
+  }
+  
+  .petDetailText {
+    /* margin-left: 20px; */
+    width: initial;
+  }
+  
+  .petName1 {
+    font-size: 40px;
+    font-weight: 200;
+    color: #5c717b;
+  }
+  
+  .petText1 {
+    margin-left: 2px;
+  }
+  
+  .petText2 {
+    margin-left: 2px;
+    font-size: 16px;
+  }
+  
+  .somePetDetail {
+    padding: 12px;
+    width: auto;
+    height: 50px;
+    border-top: 0.5px solid #cfcecf;
+    border-bottom: 0.5px solid #cfcecf;
+  }
+  
+  .chararteristics {
+    font-size: 14px;
+    margin-top: -18px;
+  }
+  
+  .nameFavHolder {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .favHeart {
+    font-size: 50px;
+    margin-top: -7px;
+  }
+  
+  .loaderDetailPet {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .loginForComment {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .loginForComment h2 {
+    font-size: 22px;
+    margin-top: 40px;
+  }
+  
+  .loginBtnComment {
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }

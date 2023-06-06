@@ -1,0 +1,43 @@
+.card-img-top {
+    object-fit: fill;
+    width: 300px;
+    height: 300px;
+    /* margin-left: 15px; */
+    margin-top: 15px;
+  }
+  
+  .orgHolder {
+    /* box-shadow: rgba(243, 98, 80, 0.45) 0px 5px 15px; */
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 100%;
+    border: none;
+  }
+  
+  .textHolder {
+    margin-left: -10px;
+  }
+  
+  .card-title {
+    margin-left: -15px;
+  }
+  
+  .mapAddress {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+  }
+  
+  /* .mainOrgInfo {
+    display: flex;
+    width: auto;
+  } */
+  
+  .somePetDetail2 {
+    padding: 12px;
+    width: auto;
+    height: 50px;
+    border-top: 0.5px solid #cfcecf;
+  }

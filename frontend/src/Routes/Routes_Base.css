@@ -1,0 +1,10 @@
+.MainContent {
+    margin-top: 20px;
+    height: fit-content;
+    width: calc(100% - 15px);
+    border: 2px solid black;
+    /* border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black; */
+    padding: 0;
+  }

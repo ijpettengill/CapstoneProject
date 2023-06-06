@@ -1,0 +1,162 @@
+@media screen and (min-width: 990px) {
+    .smallScreen {
+      visibility: hidden;
+      width: 0px;
+    }
+    .dropMenu {
+      position: absolute;
+      left: -100px;
+      right: 0;
+      top: 55px;
+      width: fit-content;
+    }
+  }
+  @media screen and (max-width: 990px) {
+    .bigScreen {
+      visibility: hidden;
+    }
+  
+    .dropdown {
+      display: flex;
+      align-items: baseline;
+    }
+  
+    .dropMenu {
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 65px;
+      width: calc(100% - 7px);
+    }
+  }
+  
+  .searchBTN {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+    border-radius: 6px;
+    color: #3d3d3d;
+    background: #fff;
+    border: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .titlePage {
+    font-weight: bolder;
+    align-self: center;
+  }
+  
+  a {
+    color: #5c717b;
+    font-size: 18px;
+  }
+  
+  a:hover {
+    color: #404040;
+  }
+  
+  .iconSearch {
+    color: #5c717a;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .dropMenu {
+    border: 1px solid black;
+    padding: 8px;
+    box-shadow: #f36250 3px 3px 0 0, #f36250 3px 3px 0 2px;
+    transform: translate(2px, 10px);
+  }
+  
+  .dropMenuItemHolder {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dropMenuItem {
+    color: #5c717b;
+    text-decoration: none;
+  }
+  
+  /* .mouseOverIcon:hover {
+    text-decoration: none;
+    font-size: 20px;
+    transform: translate(-2px, -2px);
+  } */
+  
+  .titleIcon {
+    color: #f36250;
+    margin-right: 10px;
+    font-size: 35px;
+  }
+  
+  .titleHolder {
+    display: flex;
+  }
+  
+  /* CSS */
+  .nav-btn {
+    width: fit-content;
+    height: 50px;
+    appearance: button;
+    background-color: #f36250;
+    background-image: none;
+    border: 1px solid #183543;
+    border-radius: 4px;
+    box-shadow: #183543 4px 4px 0 0, #183543 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: ITCAvantGardeStd-Bk, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 5px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-btn:focus {
+    text-decoration: none;
+  }
+  
+  .nav-btn:hover {
+    text-decoration: none;
+    box-shadow: #183543 6px 6px 0 0, #183543 6px 6px 0 1px;
+    transform: translate(-2px, -2px);
+  }
+  
+  .nav-btn:active {
+    box-shadow: rgba(24, 53, 67, 0.125) 0 3px 5px inset;
+    outline: 0;
+  }
+  
+  .nav-btn:not([disabled]):active {
+    box-shadow: #183543 2px 2px 0 0, #183543 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+  }
+  
+  .btn-gallery {
+    border: none;
+    background-color: white;
+    color: #5c717b;
+    margin-top: 2px;
+  }
+  .btn-gallery:hover {
+    color: black;
+  }

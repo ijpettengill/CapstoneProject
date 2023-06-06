@@ -1,0 +1,23 @@
+.loginHolder {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  .LoginForm {
+    width: 280px;
+    margin: 40px;
+  
+    border: none;
+    /* border-left: 1px solid black;
+    border-bottom: 1px solid black; */
+    /* box-shadow: rgba(243, 98, 80, 1) -5px 5px; */
+  }
+  
+  .modal-footer {
+    height: 57px;
+  }
+  
+  .btnLogin {
+    width: 30px;
+    height: 40px;
+  }

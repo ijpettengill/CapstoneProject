@@ -1,0 +1,111 @@
+.cardMain1 {
+    position: relative;
+    margin-top: 20px;
+  }
+  .petHolder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  
+  .petAvailable {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    /* border-bottom: 2px solid black; */
+  }
+  
+  .titlePetAdoption {
+    background-color: #f36250;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  
+  .iconHolder1 {
+    font-size: 220px;
+    color: #f36250;
+  }
+  
+  .findMore {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    align-items: center;
+  }
+  
+  .petData1 {
+    border-bottom: 1px solid black;
+  }
+  
+  .cardMain1:hover .backGroundCard1 {
+    background-color: #1c3238;
+  }
+  .cardMain1:hover .findMore {
+    background-color: #f36250;
+    height: 100%;
+    border-radius: 2px;
+  }
+  .cardMain1:hover .iconHolder1 {
+    color: white;
+  }
+  
+  .cardMain1:hover .searchIcon {
+    color: white !important;
+  }
+  
+  .cardMain1:hover p {
+    color: white !important;
+  }
+  
+  /* CSS */
+  .available-btn {
+    margin-right: 40px !important;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+      Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+  }
+  
+  .available-btn:hover,
+  .available-btn:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: white;
+    background-color: rgba(248, 98, 80, 1);
+  }
+  
+  .available-btn:hover {
+    transform: translateY(-1px);
+  }
+  
+  .linkHolder1 {
+    font-weight: bolder;
+  }
+  
+  .linkHolder1:hover {
+    font-weight: bolder;
+    text-decoration: none;
+  }
