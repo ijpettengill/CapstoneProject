@@ -1,0 +1,18 @@
+.radioBtn {
+    display: flex;
+    margin-top: 20px;
+    width: 310px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .radioBtn label {
+    align-self: center;
+    margin-top: 8px;
+    margin-left: 5px;
+    color: #5c717b;
+  }
+  
+  .radioBtn input {
+    margin-left: 5px;
+  }

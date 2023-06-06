@@ -1,0 +1,24 @@
+.mainContainer {
+    margin-top: 60px;
+    width: 100%;
+    height: fit-content;
+    max-width: calc(100% + 3px);
+    display: flex;
+    justify-content: center;
+    /* border-top: 3px solid black;
+    border-bottom: 3px solid black; */
+  }
+  
+  .iconHolders {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .iconHolders button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  .title {
+    text-align: center;
+  }

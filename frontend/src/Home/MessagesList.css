@@ -1,0 +1,39 @@
+.imgLeft {
+    height: 250px;
+    width: 240px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  .imgLeft:hover {
+    border: 5px solid #f36250;
+  }
+  
+  .carousellHolder {
+    /* background-color: #f36250; */
+    /* background: -webkit-linear-gradient(bottom, #f36250 50%, white 50%);
+    background: -moz-linear-gradient(bottom, #f36250 50%, white 50%);
+    background: -ms-linear-gradient(bottom, #f36250 50%, white 50%);
+    background: linear-gradient(bottom, #f36250 50%, white 50%);  */
+    /* background: #f36250 repeat-y !important;
+    background-size: 50% auto !important; */
+    background: linear-gradient(
+      to bottom,
+      #ffffff 0%,
+      #ffffff 50%,
+      #f36250 50%,
+      #f36250 100%
+    );
+  }
+  
+  .arrowIcon1 {
+    color: black;
+  }
+  
+  .messageHolder {
+    border: 2px solid black;
+    padding: 30px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    box-shadow: rgba(10, 19, 21, 0.9) 5px 5px;
+    background-color: white;
+  }

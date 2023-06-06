@@ -1,0 +1,60 @@
+.cardMain {
+    margin: 20px;
+  }
+  
+  .backGroundCard2 {
+    width: fit-content;
+    border-radius: 5px;
+    background-color: #f36250;
+    height: 410px;
+    width: 230px;
+    position: absolute;
+    z-index: -1;
+    left: -10px;
+    top: 18px;
+    border: 1px solid black;
+    visibility: hidden;
+  }
+  
+  .imgHolder2 {
+    height: 300px;
+    width: 230px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid black;
+    object-fit: cover;
+  }
+  
+  p {
+    font-size: 18px;
+    color: rgb(96, 96, 96);
+    /* text-align: center; */
+  }
+  
+  .cardHolder2 {
+    /* height: 355px; */
+    width: fit-content;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    height: fit-content;
+  }
+  
+  .cardMain:hover .cardHolder2 {
+    box-shadow: #f36250 -10px 10px;
+  }
+  
+  .petName {
+    font-size: 18px;
+    margin-bottom: 0px;
+  }
+  
+  .petData2 {
+    font-size: 16px;
+  }
+  
+  .fav_pet {
+    z-index: 1;
+    top: 21px;
+    right: 21px;
+  }

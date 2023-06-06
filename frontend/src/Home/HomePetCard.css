@@ -1,0 +1,120 @@
+.buttonRefresh {
+    display: flex;
+    position: absolute;
+    width: 40px;
+    height: 50px;
+    /* background-color: black; */
+    z-index: 0;
+    top: 79%;
+    left: 0%;
+  }
+  .buttonRefresh button {
+    background-color: white;
+    width: 20px;
+    height: 40px;
+    box-shadow: none;
+    border: 2px solid black;
+    padding: 12px 20px;
+    /* margin-top: -93px; */
+  }
+  
+  .topRightIcon {
+    display: flex;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    z-index: 0;
+    border-radius: 50%;
+    top: -11%;
+    right: -21%;
+    clip-path: polygon(
+      56% 91%,
+      58% 78%,
+      69% 86%,
+      66% 72%,
+      82% 74%,
+      72% 63%,
+      88% 61%,
+      74% 53%,
+      86% 45%,
+      71% 42%,
+      78% 31%,
+      64% 34%,
+      66% 22%,
+      54% 28%,
+      48% 16%,
+      41% 28%,
+      31% 19%,
+      30% 32%,
+      18% 26%,
+      22% 39%,
+      9% 37%,
+      17% 48%,
+      6% 51%,
+      16% 58%,
+      7% 68%,
+      20% 68%,
+      14% 80%,
+      26% 76%,
+      27% 89%,
+      36% 80%,
+      42% 92%,
+      48% 80%
+    );
+  }
+  
+  .topRightIcon2 {
+    display: flex;
+    position: absolute;
+    width: 116px;
+    height: 112px;
+    background-color: white;
+    z-index: 0;
+    border-radius: 50%;
+    top: -10%;
+    right: -62px;
+    clip-path: polygon(
+      56% 91%,
+      58% 78%,
+      69% 86%,
+      66% 72%,
+      82% 74%,
+      72% 63%,
+      88% 61%,
+      74% 53%,
+      86% 45%,
+      71% 42%,
+      78% 31%,
+      64% 34%,
+      66% 22%,
+      54% 28%,
+      48% 16%,
+      41% 28%,
+      31% 19%,
+      30% 32%,
+      18% 26%,
+      22% 39%,
+      9% 37%,
+      17% 48%,
+      6% 51%,
+      16% 58%,
+      7% 68%,
+      20% 68%,
+      14% 80%,
+      26% 76%,
+      27% 89%,
+      36% 80%,
+      42% 92%,
+      48% 80%
+    );
+  }
+  
+  .centerIcon {
+    color: #f36250;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    font-size: 36px;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 34px;
+  }

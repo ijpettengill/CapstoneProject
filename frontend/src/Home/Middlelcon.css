@@ -1,0 +1,41 @@
+.searchIcon {
+    /* font-size: 200px; */
+    width: 100px;
+    height: 80px;
+  }
+  
+  .iconHolder {
+    border: 1px solid black;
+    width: 200px;
+    height: 180px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  
+  .iconHolder:hover {
+    background-color: #f36250;
+    box-shadow: rgba(10, 19, 21, 0.9) 5px 5px;
+  }
+  
+  .iconHolder:hover .searchIcon {
+    color: white !important;
+  }
+  
+  .iconHolder:hover p {
+    color: white !important;
+  }
+  
+  .iconHolder p {
+    font-size: 18px;
+    color: rgb(96, 96, 96);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .linkHolder:link {
+    text-decoration: none;
+  }

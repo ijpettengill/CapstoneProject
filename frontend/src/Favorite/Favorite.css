@@ -1,0 +1,40 @@
+.fav_icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    /* border-bottom-left-radius: 5px;
+    border-top-right-radius: 3px; */
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: none;
+    border: 1px solid black;
+    padding: 7px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  
+  .fav_icon button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  .fav_icon:focus {
+    text-decoration: none;
+  }
+  
+  .fav_icon:hover {
+    text-decoration: none;
+    box-shadow: #183543 6px 6px 0 0, #183543 6px 6px 0 1px;
+    transform: translate(-2px, -2px);
+  }
+  
+  .fav_icon:active {
+    box-shadow: rgba(24, 53, 67, 0.125) 0 3px 5px inset;
+    outline: 0;
+  }
+  
+  .fav_icon:not([disabled]):active {
+    box-shadow: #183543 2px 2px 0 0, #183543 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+  }
